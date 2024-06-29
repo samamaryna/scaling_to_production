@@ -18,7 +18,8 @@ PRICE_DATA = os.getenv('PRICE_DATA')
 FEATURES_DATA = os.getenv('FEATURES_DATA')
 TICKERS = os.getenv('TICKERS')
 
-class DataManager():
+
+class DataManager:
     '''
     A class to download and process stock price data and create features.
     '''
